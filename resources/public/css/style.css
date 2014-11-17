@@ -1,3 +1,15 @@
-h1 {
-  text-decoration: underline;
+body { padding: 5px; }
+.note { margin: 10px 0; }
+.tags { float:left; }
+.date { float: right; }
+
+a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
 }

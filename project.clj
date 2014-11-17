@@ -12,6 +12,7 @@
                  [compojure "1.2.0"]
                  [enlive "1.1.5"]
                  [pani "0.0.3"]
+                 [racehub/om-bootstrap "0.3.1"]
                  [om "0.7.3"]
                  [figwheel "0.1.4-SNAPSHOT"]
                  [environ "1.0.0"]
