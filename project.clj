@@ -33,7 +33,7 @@
                                         :output-dir    "resources/public/js/out"
                                         :source-map    "resources/public/js/out.js.map"
                                         :preamble      ["react/react.min.js"]
-                                        :externs       ["react/externs/react.js"]
+                                        :externs       ["react/externs/react.js","resources/public/js/firebase.js"]
                                         :optimizations :none
                                         :pretty-print  true}}}}
 
@@ -57,5 +57,5 @@
                        :cljsbuild {:builds {:app
                                             {:source-paths ["env/prod/cljs"]
                                              :compiler
-                                             {:optimizations :none
-                                              :pretty-print true}}}}}})
+                                             {:optimizations :advanced
+                                              :pretty-print false}}}}}})
